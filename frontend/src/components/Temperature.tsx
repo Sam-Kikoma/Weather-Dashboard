@@ -24,7 +24,11 @@ const Temperature = ({ data }) => {
 		<>
 			<div className="flex justify-between mb-4">
 				<h1 className="text-4xl">{data.name}</h1>
-				<select value={temp} onChange={handleChange} className="appearance-none bg-slate-100 py-2 px-4 rounded-md">
+				<select
+					value={temp}
+					onChange={handleChange}
+					className="appearance-none bg-slate-100 py-2 px-4 rounded-md text-black"
+				>
 					<option value="C">C</option>
 					<option value="F">F</option>
 				</select>
