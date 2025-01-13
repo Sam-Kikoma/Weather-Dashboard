@@ -1,6 +1,4 @@
-import React from "react";
-
-const Forecast = () => {
+const Forecast = ({ data }) => {
 	return <div>Forecast</div>;
 };
 
