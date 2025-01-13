@@ -19,7 +19,7 @@ const Search = ({ setSearchValue }: { setSearchValue: (value: string) => void })
 					placeholder="Enter location"
 					value={search}
 					onChange={handleChange}
-					className="w-full border border-gray-300 rounded-2xl px-4 py-2 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
+					className="w-full border border-gray-300 rounded-2xl px-4 py-2 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:black text-black"
 				/>
 				<button className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400">
 					<FaSearch />
